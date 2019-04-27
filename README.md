@@ -11,4 +11,4 @@ and you are scored based on those five cards. Once the crib drops click the boar
 to start a new turn. It's not pretty or particularly fancy but it was a fun exersize.
 
 The game was created with Dojo and ImpactJS.  The meat of the game logic is in "lib/game"
-starging in main.js.
+starting in main.js.
