@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta name="viewport" content="width=640, initial-scale=.65, user-scalable=yes"> -->
+	<meta name="viewport" content="width=device-width; 
+			initial-scale=1; maximum-scale=1; user-scalable=0;"/>
+	
+		<!-- This meta tag ensures that the toolbar at the bottom of the browser 
+			is hidden when this page is accessed frome the Home Screen. -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	
+		<!-- The icon that should be used when added to the Home Screen -->
+		<link rel="apple-touch-icon" href="media/banana.png"/>
+	
+	<title>cribbage.drop</title>
+	<style type="text/css">
+		html,body {
+			background-color: #000;
+			color: #fff;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+		}
+		
+		.backdrop {
+		        width: 100%;
+		        position: absolute;
+		        top: 0;
+		        left: 0;
+		}
+		
+		#canvas {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right:0;
+			bottom:0;
+			margin: auto;
+			border: none;
+			width:320px;
+			height:400px;
+		}
+	</style>
+
+	<script type="text/javascript" src="game.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.1/dojo/dojo.js" type="text/javascript"></script> 
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+</body>
+</html>

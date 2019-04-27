@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.beastware.cribbagedrop"
+    versionCode = "11"
+    version     = "1.0.0" >
+
+  <!-- versionCode is optional and Android only -->
+
+  <name>Cribbage Drop</name>
+
+  <description>
+    Match cribbage hands to win!
+  </description>
+
+  <author href="http://beastware.com" email="games@beastware.com">
+    Beastware Games
+  </author>
+
+  <platform name="android">
+    <preference name="android-minSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="26" />
+  </platform>
+
+</widget>
